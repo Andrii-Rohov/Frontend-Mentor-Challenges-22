@@ -1,0 +1,31 @@
+$Font-Alata: 'Alata', sans-serif;
+$Font-Josefin-Sans: 'Josefin Sans', sans-serif;
+
+$White: hsl(0, 0%, 100%);
+$Black: hsl(0, 0%, 0%);
+$Dark-Gray: hsl(0, 0%, 55%);
+$Very-Dark-Gray: hsl(0, 0%, 41%);
+
+@import "./partials/header";
+@import "./partials/vr-leader-article";
+@import "./partials/creations";
+@import "./partials/footer";
+@import "./partials/media";
+
+html {
+    scroll-behavior: smooth;
+    min-width: 720px;
+}
+
+body {
+    margin: 0;
+    background-color: $White;
+    
+}
+
+
+
+
+
+
+

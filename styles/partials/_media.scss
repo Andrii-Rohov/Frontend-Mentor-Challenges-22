@@ -1,0 +1,223 @@
+@media (max-width: 1015px) {
+    #menu-icon {
+        display: block !important;
+        z-index: 11;
+    }
+    
+    #logo-header {
+        z-index: 11;
+    }
+    #navbar {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        z-index: 10;
+        background-color: $Black;
+        align-items: flex-start;
+        height: 1334px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: flex-start !important;
+        padding-top: 20px;  
+        transition: 250ms ease-in-out;
+        transform: translate(45%, -45%) scale(0.1);
+        a {
+            font-size: 48px;
+            font-family: $Font-Josefin-Sans !important;
+            font-weight: 300;
+            text-transform: uppercase;
+            margin-left: 48px !important;
+            margin-bottom: 40px;
+        }
+    }
+
+    .active-menu {
+        visibility: visible !important;
+        opacity: 1 !important;
+        transform: translate(0%, 0%) scale(1) !important;
+
+    }
+    
+
+    #header {
+        background-image: url(../images/mobile/image-hero.jpg) !important;
+        height: 1300px !important;
+        
+    }
+    #header-wrapper {
+        padding: 80px 50px 0 !important;
+        height: 1220px !important;
+        background-color: transparent !important;
+    }
+    #logo-header {
+        width: 44%;
+    }
+    #navbar-wrapper {
+        align-items: center;
+    }
+    #heading {
+        border-width: 4px !important;
+        margin: auto !important;
+        margin-top: 330px !important;
+        h1 {
+            font-size: 80px !important;
+            margin: 50px 40px 28px 40px !important;
+            line-height: 75px !important;
+        }
+    }
+    /*VR_LEADER*/
+
+    #vr-leader {
+        margin-top: 192px !important;
+        width: 87% !important;
+    }
+    #vr-leader-info {
+        width: auto !important;
+        flex-direction: column !important;
+    }
+    #vr-leader-text {
+        position: unset !important;
+        width: auto !important;
+        h2 {
+            font-size: 64px !important;
+            text-align: center !important;
+            margin: 0 !important;
+            margin-top: 95px !important;
+        }
+        p {
+            font-size: 30px !important;
+            line-height: 50px !important;
+            width: 90% !important;
+            margin: auto !important;
+            text-align: center !important;
+            margin-top: 35px !important;
+        }
+    }
+    #vr-man {
+        content: url(../images/mobile/image-interactive.jpg) !important;
+    }
+
+
+    /*CREATIONS-GALLERY*/
+    #creations {
+        position: relative;
+        width: 90% !important;
+    }
+    #see-all-button {
+        position: absolute;
+        bottom: -100px;
+        margin-top: 100px;
+        width: 315px;
+        height: 80px;
+        font-size: 28px !important;
+        letter-spacing: 10px !important;
+        border-color: $Black !important;
+        border-radius: 0px !important;
+    }
+    #creations-head {
+        justify-content: center !important;
+        h2 {
+            font-size: 64px !important;
+        }
+    }
+    #gallery {
+        flex-direction: column !important;
+        margin-top: 90px !important;
+        align-items: center;
+        width: 100% !important;
+        .cell {
+            width: 654px !important;
+            height: 240px !important;
+            margin-right: 0 !important;
+            margin-bottom: 48px !important;
+            .cell-wrapper {
+                justify-content: flex-start !important;
+                h2 {
+                    font-size: 48px !important;
+                    line-height: 48px !important;
+                    width: 35% !important;
+                    margin-left: 40px;
+                    margin-bottom: 40px !important;
+                }
+                
+            }
+        }
+        .earth {
+            background-image: url(../images/mobile/image-deep-earth.jpg) !important;
+        }
+        .arcade {
+            background-image: url(../images/mobile/image-night-arcade.jpg) !important;
+        }
+        .soccer {
+            background-image: url(../images/mobile/image-soccer-team.jpg) !important;
+        }
+        .grid {
+            background-image: url(../images/mobile/image-grid.jpg) !important;
+        }
+        .vr {
+            background-image: url(../images/mobile/image-from-above.jpg) !important;
+        }
+        .borealis {
+           background-image: url(../images/mobile/image-pocket-borealis.jpg) !important;
+        }
+        .curiosity {
+            background-image: url(../images/mobile/image-curiosity.jpg) !important;
+        }
+        .fisheye {
+            background-image: url(../images/mobile/image-fisheye.jpg) !important;
+        }
+    }
+
+    /*FOOTER*/
+
+    #footer {
+        margin-top: 296px;
+        height: 940px;
+        #footer-wrapper {
+            flex-direction: column;
+            #footer-left {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                flex-direction: column;
+                margin-top: 112px;
+                width: 50%;
+                img {
+                    width: 100%;
+                    margin: auto;
+                }
+                #navbar-footer {
+                    font-size: 30px;
+                    flex-direction: column;
+                    margin-top: 69px;
+                    a {
+                        margin: 0 0 41px 0 !important;
+                    }
+                }
+            }
+
+        }
+        #footer-right {
+            align-items: center !important;
+            margin-bottom: 115px;
+            #navbar-footer-icons {
+                margin-bottom: 33px !important;
+            }
+            img {
+                width: 48px !important;
+                margin-right: 16px !important;
+            }
+            p {
+                font-size: 30px !important;
+            }
+        }
+    }
+    .attribution {
+        width: 60% !important;
+        left: 20% !important;
+        right: 20% !important;
+    }
+}

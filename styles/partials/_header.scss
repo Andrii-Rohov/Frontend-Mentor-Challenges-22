@@ -1,0 +1,93 @@
+#header {
+    height: 650px;
+    background-image: url(../images/desktop/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    #header-wrapper {
+        width: auto;
+        height: 90%;
+        color: $White;
+        padding: 64px 165px 0;
+        background-color: hsla(0, 0%, 0%, 0.4);
+        
+        #navbar-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            #navbar {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: $Font-Alata;
+                font-size: 15px;
+                a {
+                    position: relative;
+                    color: $White;
+                    text-decoration: none;
+                    margin-left: 33px;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        bottom: -8px;
+                        left: 50%;
+                        width: 0%;
+                        height: 2px;
+                        border-radius: 1px;
+                        background-color: $White;
+                        transition: 300ms cubic-bezier(0,1.5,1,3);
+                        
+                    }
+                    &:hover, &:focus {
+                        animation: scale 300ms cubic-bezier(0,1.5,1,2)  1 forwards;
+                        @keyframes scale {
+                            0% {
+                                transform:  scale(1);
+                            }
+                            50% {
+                                transform: scale(1.1);
+                            }
+                            100% {
+                                transform:  scale(1);
+                            }
+                        }
+
+                        &::after {
+                            bottom: -12px;
+                            left: 25%;
+                            width: 50%;
+                            height: 2px;
+                        }
+                    }
+                    &:active {
+                        color: $Dark-Gray;
+                    }
+
+                }
+            }
+            #menu-icon {
+                display: none;
+                width: 48px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            
+        }
+    }
+    #heading {
+        border: 2px solid $White;
+        width: 651px;
+        margin-top: 129px;
+        box-sizing: border-box;
+        h1 {
+            font-family: "Josefin Sans", sans-serif;
+            text-transform: uppercase;
+            font-size: 72px;
+            font-weight: 300;
+            margin: 38px 0 28px 38px;
+            letter-spacing: 0.1px;
+            line-height: 70px;
+        }
+    }
+}

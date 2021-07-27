@@ -1,0 +1,44 @@
+#vr-leader {
+    width: 77%;
+    margin: auto;
+    margin-top: 160px;
+    #vr-leader-info { 
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        background-color: $White;
+        width: 66%;
+        #vr-man {
+            content: url(../images/desktop/image-interactive.jpg);
+        }
+        #vr-leader-text {
+            position: absolute;
+            width: 538px;
+            background-color: $White;
+            bottom: 0;
+            right: -376px;
+            img {
+                width: 100%;
+            }
+            h2 {
+                color: $Black;
+                font-family: $Font-Josefin-Sans;
+                text-transform: uppercase;
+                margin: 97px 0 0 94px;
+                font-size: 48px;
+                font-weight: 300;
+                line-height: 1;
+            }
+            p {
+                color: $Dark-Gray;
+                font-family: $Font-Alata;
+                margin: 25px 0 0 94px;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 25px;
+                width: 83%;
+            }
+        }
+        
+    }
+}
