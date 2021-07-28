@@ -730,57 +730,28 @@
   #creations-head h2 {
     font-size: 64px !important;
   }
-  #gallery {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
-    margin-top: 90px !important;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 100% !important;
-  }
-  #gallery .cell {
-    width: 654px !important;
-    height: 240px !important;
-    margin-right: 0 !important;
-    margin-bottom: 48px !important;
-  }
-  #gallery .cell .cell-wrapper {
-    -webkit-box-pack: start !important;
-        -ms-flex-pack: start !important;
-            justify-content: flex-start !important;
-  }
-  #gallery .cell .cell-wrapper h2 {
-    font-size: 48px !important;
-    line-height: 48px !important;
-    width: 35% !important;
-    margin-left: 40px;
-    margin-bottom: 40px !important;
-  }
-  #gallery .earth {
+  .earth {
     background-image: url(../images/mobile/image-deep-earth.jpg) !important;
   }
-  #gallery .arcade {
+  .arcade {
     background-image: url(../images/mobile/image-night-arcade.jpg) !important;
   }
-  #gallery .soccer {
+  .soccer {
     background-image: url(../images/mobile/image-soccer-team.jpg) !important;
   }
-  #gallery .grid {
+  .grid {
     background-image: url(../images/mobile/image-grid.jpg) !important;
   }
-  #gallery .vr {
+  .vr {
     background-image: url(../images/mobile/image-from-above.jpg) !important;
   }
-  #gallery .borealis {
+  .borealis {
     background-image: url(../images/mobile/image-pocket-borealis.jpg) !important;
   }
-  #gallery .curiosity {
+  .curiosity {
     background-image: url(../images/mobile/image-curiosity.jpg) !important;
   }
-  #gallery .fisheye {
+  .fisheye {
     background-image: url(../images/mobile/image-fisheye.jpg) !important;
   }
   /*FOOTER*/
@@ -848,9 +819,109 @@
   }
 }
 
+@media (max-width: 1015px) and (min-width: 750px) {
+  #gallery {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    margin-top: 90px !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100% !important;
+  }
+  #gallery .cell {
+    width: 654px !important;
+    height: 240px !important;
+    margin-right: 0 !important;
+    margin-bottom: 48px !important;
+  }
+  #gallery .cell .cell-wrapper {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  #gallery .cell .cell-wrapper h2 {
+    font-size: 48px !important;
+    line-height: 48px !important;
+    width: 35% !important;
+    margin-left: 40px;
+    margin-bottom: 40px !important;
+  }
+}
+
+@media (max-width: 749px) {
+  #navbar {
+    height: 1280px !important;
+  }
+  #navbar a {
+    font-size: 36px !important;
+  }
+  #header-wrapper {
+    padding: 80px 25px 0 !important;
+  }
+  #heading {
+    width: 100% !important;
+  }
+  #heading h1 {
+    font-size: 36px !important;
+    line-height: 60px !important;
+    font-weight: 700 !important;
+    margin: 40px 25px 28px 25px !important;
+  }
+  #vr-leader-text h2 {
+    font-size: 36px !important;
+  }
+  #vr-leader-text p {
+    font-size: 20px !important;
+    line-height: 40px !important;
+    width: 100% !important;
+  }
+  #creations-head h2 {
+    font-size: 52px !important;
+  }
+  #gallery {
+    width: 100% !important;
+    margin: auto;
+  }
+  .cell {
+    width: 96% !important;
+    height: 240px !important;
+    background-position: center !important;
+    margin-right: 0 !important;
+  }
+  .cell-wrapper {
+    margin: auto !important;
+    width: 100% !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  .cell-wrapper h2 {
+    font-size: 32px !important;
+    line-height: 38px !important;
+    width: 65% !important;
+    margin-left: 30px;
+    margin-bottom: 30px !important;
+  }
+  .attribution {
+    top: -50px !important;
+  }
+  .attribution a, .attribution p {
+    font-size: 14px !important;
+  }
+  #footer-left {
+    width: 100% !important;
+  }
+  #footer-right p {
+    text-align: center;
+  }
+}
+
 html {
   scroll-behavior: smooth;
-  min-width: 720px;
+  min-width: 335px;
 }
 
 body {

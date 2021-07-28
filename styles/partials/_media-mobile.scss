@@ -1,0 +1,73 @@
+@media (max-width: 749px) {
+    #navbar {
+        height: 1280px !important;
+        a {
+            font-size: 36px !important;
+        }
+    }
+    #header-wrapper {
+        padding: 80px 25px 0 !important;
+    }
+    #heading {
+        width: 100% !important;
+        h1 {
+            font-size: 36px !important;
+            line-height: 60px !important;
+            font-weight: 700 !important;
+            margin: 40px 25px 28px 25px !important;
+        }
+    }
+    #vr-leader-text  {
+        h2 {
+            font-size: 36px !important;
+        }
+        p {
+            font-size: 20px !important;
+            line-height: 40px !important;
+            width: 100% !important;
+        }
+    }
+    #creations-head {
+        h2 {
+            font-size: 52px !important;
+        }
+    }
+    #gallery {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .cell {
+        width: 96% !important;
+        height: 240px !important;
+        background-position: center !important;
+        margin-right: 0 !important;
+    }
+    .cell-wrapper {
+        margin: auto !important;
+        width: 100% !important;
+        justify-content: flex-start !important;
+        h2 {
+            font-size: 32px !important;
+            line-height: 38px !important;
+            width: 65% !important;
+            margin-left: 30px;
+            margin-bottom: 30px !important;
+        }
+    }
+    .attribution {
+        top: -50px !important;
+       
+        a, p {
+            font-size: 14px !important;
+        }
+    }
+    #footer-left {
+        width: 100% !important;
+    }
+    #footer-right {
+        p {
+            text-align: center;
+        }
+    }
+}

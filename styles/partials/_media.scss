@@ -123,52 +123,29 @@
             font-size: 64px !important;
         }
     }
-    #gallery {
-        flex-direction: column !important;
-        margin-top: 90px !important;
-        align-items: center;
-        width: 100% !important;
-        .cell {
-            width: 654px !important;
-            height: 240px !important;
-            margin-right: 0 !important;
-            margin-bottom: 48px !important;
-            .cell-wrapper {
-                justify-content: flex-start !important;
-                h2 {
-                    font-size: 48px !important;
-                    line-height: 48px !important;
-                    width: 35% !important;
-                    margin-left: 40px;
-                    margin-bottom: 40px !important;
-                }
-                
-            }
-        }
-        .earth {
-            background-image: url(../images/mobile/image-deep-earth.jpg) !important;
-        }
-        .arcade {
-            background-image: url(../images/mobile/image-night-arcade.jpg) !important;
-        }
-        .soccer {
-            background-image: url(../images/mobile/image-soccer-team.jpg) !important;
-        }
-        .grid {
-            background-image: url(../images/mobile/image-grid.jpg) !important;
-        }
-        .vr {
-            background-image: url(../images/mobile/image-from-above.jpg) !important;
-        }
-        .borealis {
-           background-image: url(../images/mobile/image-pocket-borealis.jpg) !important;
-        }
-        .curiosity {
-            background-image: url(../images/mobile/image-curiosity.jpg) !important;
-        }
-        .fisheye {
-            background-image: url(../images/mobile/image-fisheye.jpg) !important;
-        }
+    .earth {
+        background-image: url(../images/mobile/image-deep-earth.jpg) !important;
+    }
+    .arcade {
+        background-image: url(../images/mobile/image-night-arcade.jpg) !important;
+    }
+    .soccer {
+        background-image: url(../images/mobile/image-soccer-team.jpg) !important;
+    }
+    .grid {
+        background-image: url(../images/mobile/image-grid.jpg) !important;
+    }
+    .vr {
+        background-image: url(../images/mobile/image-from-above.jpg) !important;
+    }
+    .borealis {
+       background-image: url(../images/mobile/image-pocket-borealis.jpg) !important;
+    }
+    .curiosity {
+        background-image: url(../images/mobile/image-curiosity.jpg) !important;
+    }
+    .fisheye {
+        background-image: url(../images/mobile/image-fisheye.jpg) !important;
     }
 
     /*FOOTER*/
@@ -219,5 +196,32 @@
         width: 60% !important;
         left: 20% !important;
         right: 20% !important;
+    }
+}
+
+@media (max-width: 1015px) and (min-width: 750px) {
+    #gallery {
+        flex-direction: column !important;
+        margin-top: 90px !important;
+        align-items: center;
+        width: 100% !important;
+        .cell {
+            width: 654px !important;
+            height: 240px !important;
+            margin-right: 0 !important;
+            margin-bottom: 48px !important;
+            .cell-wrapper {
+                justify-content: flex-start !important;
+                h2 {
+                    font-size: 48px !important;
+                    line-height: 48px !important;
+                    width: 35% !important;
+                    margin-left: 40px;
+                    margin-bottom: 40px !important;
+                }
+                
+            }
+        }
+        
     }
 }

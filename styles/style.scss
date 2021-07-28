@@ -11,21 +11,15 @@ $Very-Dark-Gray: hsl(0, 0%, 41%);
 @import "./partials/creations";
 @import "./partials/footer";
 @import "./partials/media";
+@import "./partials/media-mobile";
 
 html {
     scroll-behavior: smooth;
-    min-width: 720px;
+    min-width: 335px;
+   
 }
 
 body {
     margin: 0;
     background-color: $White;
-    
 }
-
-
-
-
-
-
-
